@@ -1,12 +1,19 @@
 ## Repositório de estudos em Java
 
+Início: 26-07-2021 - Em andamento
+
 A princípio, estou estudando Java para trabalhar nos projetos de sistemas embarcados da CAS Tecnologia.
+
+[Tutoriais - W3 Schools (clique aqui)](https://www.w3schools.com/java/default.asp)
+
+[Exercícios - W3 Schools (clique aqui)](https://www.w3schools.com/java/exercise.asp)
+
 ### Java Tutorial
 
-- [ ] Java Syntax;
-- [ ] Java Comments;
-- [ ] Java Variables;
-- [ ] Java Data Types;
+- [x] Java Syntax;
+- [x] Java Comments;
+- [x] Java Variables;
+- [x] Java Data Types;
 - [ ] Java Type Casting;
 - [ ] Java Operators;
 - [ ] Java Strings;
