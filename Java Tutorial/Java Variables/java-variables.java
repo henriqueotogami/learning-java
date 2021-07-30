@@ -1,6 +1,6 @@
-public class java-variables {
+public class JavaVariables {
 
-    static void Exercise(String[] args) {
+    static void exercise(String[] args) {
 
         // Exercise 1: Create a variable named carName and assign the value Volvo to it.
         String carName = "Volvo";

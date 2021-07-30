@@ -1,6 +1,6 @@
-public class main {
+public class JavaDataTypes {
 
-    static void ExerciseOne(String[] args) {
+    static void exerciseOne(String[] args) {
         // Question: Add the correct data type for the following variables:
 
         // Answer:
@@ -11,13 +11,13 @@ public class main {
         String myText = "Hello World";
     }
 
-    static void ExerciseTwo(String[] args) {
+    static void exerciseTwo(String[] args) {
         // Question: byte, short, int, long, float, double, boolean and char are called:
 
         // Answer: primary data types.
     }
 
-    static void ExerciseThree (String[] args) {
+    static void exerciseThree (String[] args) {
         // Question: Type casting - convert the following double type (myDouble) to an int type:
 
         // Answer:
