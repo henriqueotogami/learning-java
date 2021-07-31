@@ -36,6 +36,4 @@ public class JavaStrings {
         String txt = "Hello Everybody";
         System.out.println(txt.indexOf("e"));
     }
-
-
 }
