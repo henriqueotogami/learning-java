@@ -15,6 +15,14 @@ public class Pokemon {
     private String ability;
     private Double weight;
 
+    public Pokemon(String id, String name, String category, String ability, Double weight) {
+        this.id         = id;
+        this.name       = name;
+        this.category   = category;
+        this.ability    = ability;
+        this.weight     = weight;
+    }
+
     public String getId() {
         return id;
     }
@@ -60,11 +68,11 @@ public class Pokemon {
         if (this == o) return true;
         if (!(o instanceof Pokemon)) return false;
         Pokemon pokemon  = (Pokemon) o;
-        return Objects.equals(id, pokemon.id) &&
-                Objects.equals(name, pokemon.name) &&
-                Objects.equals(category, pokemon.category) &&
-                Objects.equals(ability, pokemon.ability) &&
-                Objects.equals(weight, pokemon.weight);
+        return Objects.equals(id,           pokemon.id)         &&
+                Objects.equals(name,        pokemon.name)       &&
+                Objects.equals(category,    pokemon.category)   &&
+                Objects.equals(ability,     pokemon.ability)    &&
+                Objects.equals(weight,      pokemon.weight);
     }
 
     @Override
