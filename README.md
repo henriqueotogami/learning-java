@@ -112,6 +112,8 @@ A princípio, estou estudando Java para trabalhar nos projetos de sistemas embar
 
 #### [Playlist no Youtube da @anabneri](https://www.youtube.com/watch?v=7DbPSiA4ENg&list=PLmdyvKzGNf-xpnHkvaut7FwlNt3_lsbYz)
 
+#### [Artigo da @anabneri](https://dev.to/womakerscode/criando-seu-pokedex-com-spring-webflux-mongodb-deploy-no-heroku-21f5)
+
 <details>
   <summary>O que é uma Pokedéx?</summary>
 A Pokédex, também conhecida como Poké-Agenda no Brasil (e ainda como Dexter ou Dextette, dependendo da voz masculina ou feminina do aparelho) é uma enciclopédia virtual portátil de alta tecnologia que os treinadores Pokémon transportam para registra todas as espécies diferentes de Pokémon que são encontradas durante a sua viagem como treinadores. Em geral, quando são cumpridos determinados requisitos, a capacidade pode ser aumentada permitindo que a Pokédex possa armazenar dados de outros Pokémon, que não são comuns, assim como os Pokémon de outras regiões.
