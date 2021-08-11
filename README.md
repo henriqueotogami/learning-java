@@ -2,13 +2,13 @@
 
 Início: 26-07-2021 - Em andamento
 
-A princípio, estou estudando Java para trabalhar nos projetos de sistemas embarcados da CAS Tecnologia.
+#### A princípio, estou estudando Java para trabalhar nos projetos de sistemas embarcados da [CAS Tecnologia](https://www.castecnologia.com.br).
 
 ### W3Schools
 
-[Tutoriais - W3 Schools (clique aqui)](https://www.w3schools.com/java/default.asp)
+[Tutoriais (clique aqui)](https://www.w3schools.com/java/default.asp)
 
-[Exercícios - W3 Schools (clique aqui)](https://www.w3schools.com/java/exercise.asp)
+[Exercícios (clique aqui)](https://www.w3schools.com/java/exercise.asp)
 
 <details>
   <summary>Java Tutorial</summary>
@@ -17,17 +17,17 @@ A princípio, estou estudando Java para trabalhar nos projetos de sistemas embar
 - [x] Java Comments;
 - [x] Java Variables;
 - [x] Java Data Types;
-- [ ] Java Type Casting;
-- [ ] Java Operators;
-- [ ] Java Strings;
-- [ ] Java Math;
-- [ ] Java Booleans;
-- [ ] Java If ... Else;
-- [ ] Java Switch;
-- [ ] Java While Loop;
-- [ ] Java For Loop;
-- [ ] Java Break / Continue;
-- [ ] Java Arrays;
+- [x] Java Type Casting;
+- [x] Java Operators;
+- [x] Java Strings;
+- [x] Java Math;
+- [x] Java Booleans;
+- [x] Java If ... Else;
+- [x] Java Switch;
+- [x] Java While Loop;
+- [x] Java For Loop;
+- [x] Java Break / Continue;
+- [x] Java Arrays;
   
 </details>
 <details>
@@ -150,7 +150,9 @@ Neste projeto será criada uma aplicação de Create, Read, Update e Delete usan
 <hr>
 </details>
 
-#### Screenshots | GIFs
+<details>
+    <summary>Screenshots | GIFs</summary>
+</details>
 
 <details>
   <summary>Código de exemplo</summary>
@@ -191,7 +193,72 @@ public class PokedexApplication {
 }
   ```
 </details>
-<hr> 
+<hr>
+
+### Mini Projeto: Interface GUI
+
+#### Desenvolvido por: Alex Lee
+
+#### [Vídeo no Youtube](https://www.youtube.com/watch?v=5o3fMLPY7qY)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de uma Interface Gráfica do Usuário (GUI), contendo um título fixo, um botão e um texto informando a quantidade de vezes que o botão foi pressionado.
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+  
+```java
+
+    public class GUI implements ActionListener {
+    
+        private int explosionsCount = 0;
+        private JFrame guiFrame;
+        private JLabel explosionLabel;
+        private JPanel guiPanel;
+    
+        public GUI() {
+            guiFrame = new JFrame();
+    
+            JButton explosionButton = new JButton(" Clique aqui para explodir 🧨 ");
+            explosionButton.addActionListener(this);
+    
+            explosionLabel = new JLabel("Número de explosões: 0");
+    
+            guiPanel = new JPanel();
+            guiPanel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+            guiPanel.setLayout(new GridLayout(0,1));
+            guiPanel.add(explosionButton);
+            guiPanel.add(explosionLabel);
+    
+            guiFrame.add(guiPanel, BorderLayout.CENTER);
+            guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            guiFrame.setTitle("GUI Explosiva 🔥");
+            guiFrame.pack();
+            guiFrame.setVisible(true);
+        }
+    
+        public static void main(String[] args) {
+            new GUI();
+        }
+    
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            explosionsCount++;
+            explosionLabel.setText("Número de explosões: " + explosionsCount);
+        }
+    }
+
+  ```
+
+</details>
+
+<hr>
 
 > ### Caso você queira ajudar a melhorar este repositório, qualquer ajuda é bem vinda.
 > 
