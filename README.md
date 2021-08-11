@@ -152,6 +152,7 @@ Neste projeto será criada uma aplicação de Create, Read, Update e Delete usan
 
 <details>
     <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Pokedex/PokedexApplication.png?raw=true">
 </details>
 
 <details>
@@ -208,6 +209,7 @@ Desenvolvimento de uma Interface Gráfica do Usuário (GUI), contendo um título
 
 <details>
     <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/AppGUI/AppGUI.png?raw=true">
 </details>
 
 <details>
@@ -255,6 +257,23 @@ Desenvolvimento de uma Interface Gráfica do Usuário (GUI), contendo um título
     }
 
   ```
+
+</details>
+
+<hr>
+
+#### IDE: IntelliJ IDEA
+<details>
+<summary>Plugins</summary>
+
+- Atom Material Icons;
+- Codota AI Autocomplete for Java;
+- GitToolBox;
+- Material Theme UI; 
+- Nyan Progress Bar;
+- One Dark Theme;
+- Rainbow Brackets;
+- Tabnine AI Code Completion;
 
 </details>
 
