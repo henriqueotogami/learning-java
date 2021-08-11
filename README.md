@@ -312,6 +312,58 @@ public class ReverseString {
   ```
 
 </details>
+
+<hr>
+
+### Mini Projeto: Loop Pattern
+
+#### Desenvolvido por: Alex Lee
+
+#### [Vídeo no Youtube](https://youtu.be/3gzvVPD3n0w)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de um script que obtém o número de estrelas solicitado ao usuário e imprime o valor elevado ao quadrado, porém mostrado como uma somatória de estrelas (ou asteriscos) em linhas diferentes.
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/LoopPattern/LoopPattern.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public class LoopPattern {
+
+    public static void main(String[] args) {
+        System.out.println("Obi-Wan Kenobi says: Hello there! How many stars would you like?");
+        Scanner scanKeyboard = new Scanner (System.in);
+        int numberOfStars = scanKeyboard.nextInt();
+
+        for(int indexIncreasingLineStar = 1; indexIncreasingLineStar <= numberOfStars; indexIncreasingLineStar++){
+
+            for(int indexIncreasingRowStar = 0; indexIncreasingRowStar < indexIncreasingLineStar; indexIncreasingRowStar++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for(int indexDecreasingLineStar = (numberOfStars - 1); indexDecreasingLineStar > 0; indexDecreasingLineStar--){
+
+            for(int indexDecreasingRowStar = 0; indexDecreasingRowStar < indexDecreasingLineStar; indexDecreasingRowStar++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+  ```
+</details>
+
 <hr>
 
 #### IDE: IntelliJ IDEA
