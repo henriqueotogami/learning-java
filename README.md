@@ -262,6 +262,58 @@ Desenvolvimento de uma Interface Gráfica do Usuário (GUI), contendo um título
 
 <hr>
 
+### Mini Projeto: String Reverse
+
+#### Desenvolvido por: Alex Lee
+
+#### [Vídeo no Youtube](https://youtu.be/orUTq3CahRE)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de um script que inverta a ordem de cada caractere na sentença da frase, de modo que a leitura seja invertida.
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/ReverseString/ReverseString.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public class ReverseString {
+
+    public static void main(String[] args) {
+
+        final String reverseString = reverse("Explosion");
+        System.out.println("String reverse: " + reverseString);
+    }
+
+    public static String reverse(String string) {
+        final char[] stringLetters = new char[string.length()];
+
+        int letterIndex = 0;
+        for (int index = string.length()-1; index >= 0; index--) {
+            stringLetters[letterIndex] = string.charAt(index);
+            letterIndex++;
+        }
+
+        String stringReversed = "";
+        for (int index = 0; index < string.length(); index++) {
+            stringReversed = stringReversed + stringLetters[index];
+        }
+
+        return stringReversed;
+    }
+}
+
+  ```
+
+</details>
+<hr>
+
 #### IDE: IntelliJ IDEA
 <details>
 <summary>Plugins</summary>

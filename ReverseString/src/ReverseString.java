@@ -4,7 +4,7 @@ public class ReverseString {
     public static void main(String[] args) {
 
         final String reverseString = reverse("Explosion");
-        System.out.println(reverseString);
+        System.out.println("String reverse: " + reverseString);
     }
 
     public static String reverse(String string) {
