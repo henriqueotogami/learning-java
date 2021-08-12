@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AppGUI/AppGUI.iml" filepath="$PROJECT_DIR$/AppGUI/AppGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrowKeys/ArrowKeys.iml" filepath="$PROJECT_DIR$/ArrowKeys/ArrowKeys.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaTutorial/JavaTutorial.iml" filepath="$PROJECT_DIR$/JavaTutorial/JavaTutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoopPattern/LoopPattern.iml" filepath="$PROJECT_DIR$/LoopPattern/LoopPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pokedex/Pokedex.iml" filepath="$PROJECT_DIR$/Pokedex/Pokedex.iml" />
