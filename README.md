@@ -498,6 +498,46 @@ public class AddNumbers {
 
 <hr>
 
+### Mini Projeto: Random Numbers
+
+#### Desenvolvido por: Alex Lee
+
+#### [Vídeo no Youtube](https://youtu.be/ucS3vwP9jnk)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de um script que retorna números aleatórios com intervalo definido de 0 a 6.
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/RandomNumbers/RandomNumbers.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public class RandomNumbers {
+
+    public static void main(String[] args) {
+
+        Random randomNumbers = new Random();
+        int numberChosen = (randomNumbers.nextInt(6) + 1);
+
+        System.out.println("Number randomly chosen: " + numberChosen);
+    }
+
+    public RandomNumbers() {
+    }
+}
+
+  ```
+</details>
+
+<hr>
+
 #### IDE: IntelliJ IDEA
 <details>
 <summary>Plugins</summary>
