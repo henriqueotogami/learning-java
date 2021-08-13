@@ -458,6 +458,46 @@ public class ArrowKeys {
 
 <hr>
 
+### Mini Projeto: Add Numbers
+
+#### Desenvolvido por: Alex Lee
+
+#### [Vídeo no Youtube](https://youtu.be/dVTgNsv3pX4)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de um script que obtém os números digitados pelo usuário e retorna a soma de dois números.
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/AddNumbers/AddNumbers.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public class AddNumbers {
+
+    public static void main(String[] args) {
+        Scanner scanKeyboard = new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        int firstNumber = scanKeyboard.nextInt();
+
+        System.out.println("Enter the second number: ");
+        int secondNumber = scanKeyboard.nextInt();
+
+        System.out.println("The result of the sum: " + (firstNumber + secondNumber));
+    }
+}
+
+  ```
+</details>
+
+<hr>
+
 #### IDE: IntelliJ IDEA
 <details>
 <summary>Plugins</summary>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AddNumbers/AddNumbers.iml" filepath="$PROJECT_DIR$/AddNumbers/AddNumbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/AppGUI/AppGUI.iml" filepath="$PROJECT_DIR$/AppGUI/AppGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrowKeys/ArrowKeys.iml" filepath="$PROJECT_DIR$/ArrowKeys/ArrowKeys.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaTutorial/JavaTutorial.iml" filepath="$PROJECT_DIR$/JavaTutorial/JavaTutorial.iml" />
