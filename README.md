@@ -536,6 +536,8 @@ public class RandomNumbers {
   ```
 </details>
 
+<hr>
+
 ### Mini Projeto: Duplicate Characters
 
 #### Desenvolvido por: Alex Lee
