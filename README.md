@@ -536,6 +536,57 @@ public class RandomNumbers {
   ```
 </details>
 
+### Mini Projeto: Duplicate Characters
+
+#### Desenvolvido por: Alex Lee
+
+#### [Vídeo no Youtube](https://youtu.be/tqI18_X_uoc)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de um script que retorna caracteres repetidos dentro de uma String, inclusive espaços vazios.
+
+- [ ] TODO - Melhoria: Analisar somente caracteres e não espaços vazios;
+- [ ] TODO - Melhoria: Contar quantas vezes cada caractere foi repetido na String analisada.
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/DuplicateCharacters/DuplicateCharacters.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public static void main(String[] args) {
+
+        String sentence = "How many duplicates are there?";
+        System.out.println(sentence);
+
+        StringBuilder characters = new StringBuilder();
+        StringBuilder duplicates = new StringBuilder();
+
+        for (int i = 0; i < sentence.length(); i++) {
+            String current = Character.toString(sentence.charAt(i));
+
+            if (characters.toString().contains(current)) {
+
+                if (!duplicates.toString().contains(current)){
+                    duplicates.append(current).append(",");
+                }
+            }
+
+            characters.append(current);
+        }
+
+        System.out.println(duplicates);
+    }
+
+  ```
+</details>
+
 <hr>
 
 #### IDE: IntelliJ IDEA
