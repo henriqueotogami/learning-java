@@ -6,12 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/AppGUI/AppGUI.iml" filepath="$PROJECT_DIR$/AppGUI/AppGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrowKeys/ArrowKeys.iml" filepath="$PROJECT_DIR$/ArrowKeys/ArrowKeys.iml" />
       <module fileurl="file://$PROJECT_DIR$/DuplicateCharacters/DuplicateCharacters.iml" filepath="$PROJECT_DIR$/DuplicateCharacters/DuplicateCharacters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Henrique/Henrique.iml" filepath="$PROJECT_DIR$/Henrique/Henrique.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaTutorial/JavaTutorial.iml" filepath="$PROJECT_DIR$/JavaTutorial/JavaTutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoopPattern/LoopPattern.iml" filepath="$PROJECT_DIR$/LoopPattern/LoopPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pokedex/Pokedex.iml" filepath="$PROJECT_DIR$/Pokedex/Pokedex.iml" />
       <module fileurl="file://$PROJECT_DIR$/RandomNumbers/RandomNumbers.iml" filepath="$PROJECT_DIR$/RandomNumbers/RandomNumbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReverseString/ReverseString.iml" filepath="$PROJECT_DIR$/ReverseString/ReverseString.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TestesDeProjeto/TestesDeProjeto.iml" filepath="$PROJECT_DIR$/TestesDeProjeto/TestesDeProjeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning-java.iml" filepath="$PROJECT_DIR$/learning-java.iml" />
     </modules>
   </component>
