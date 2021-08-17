@@ -12,14 +12,14 @@ public class Registers {
         int indexInfoDateDLMS;
         int index = 0;
 
-        byte[] getYearDLMS = new byte[0];
-        byte[] getDayDLMS = new byte[0];
-        byte[] getMonthDLMS  = new byte[0];
-        byte[] getHourDLMS = new byte[0];
-        byte[] getMinutesDLMS = new byte[0];
-        byte[] getSecondsDLMS = new byte[0];
-        byte[] getRegStatusDLMS = new byte[0];
-        byte[] getEventReleDLMS = new byte[0];
+        byte[] getYearDLMS = new byte[10];
+        byte[] getDayDLMS = new byte[10];
+        byte[] getMonthDLMS  = new byte[10];
+        byte[] getHourDLMS = new byte[10];
+        byte[] getMinutesDLMS = new byte[10];
+        byte[] getSecondsDLMS = new byte[10];
+        byte[] getRegStatusDLMS = new byte[10];
+        byte[] getEventReleDLMS = new byte[10];
 
 //        final Vector eventZeus = new Vector();
 
@@ -30,11 +30,20 @@ public class Registers {
             }
         }
 
-        final int eight = 8;
+        final int infoDateLength = getInfoDateDLMS.length;
+
+        for (int i = 0; infoDateLength > i; i++) {
+
+            String firstDigit = String.valueOf(getInfoDateDLMS[i + 1]);
+            String secondDigit = String,valueOf(getInfoDateDLMS[i + 2]);
+            String joinDigits = firstDigit.concat(secondDigit);
+            getYearDLMS[i] = joinDigits.getBytes("UTF-8");
+        }
+
         int indexx = 0;
 
-       for (int i = 0; eight > i; i++) {
-           getYearDLMS[i] = (byte) (registers[(getInfoDateDLMS[index] + 1)] + registers[(getInfoDateDLMS[index] + 2)]);
+       for (int i = 0; infoDateLength > i; i++) {
+
            getDayDLMS[i] = registers[(getInfoDateDLMS[index] + 3)];
            getMonthDLMS[i] = (registers[(getInfoDateDLMS[index] + 4)]);
            getHourDLMS[i] = (registers[(getInfoDateDLMS[index] + 6)]);
