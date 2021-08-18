@@ -657,14 +657,14 @@ public class PrimeNumbers {
 <details>
 <summary>Plugins</summary>
 
-- Atom Material Icons;
-- Codota AI Autocomplete for Java;
-- GitToolBox;
-- Material Theme UI; 
-- Nyan Progress Bar;
-- One Dark Theme;
-- Rainbow Brackets;
-- Tabnine AI Code Completion;
+- [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons);
+- [Codota AI Autocomplete for Java](https://plugins.jetbrains.com/plugin/7638-codota-ai-autocomplete-for-java-and-javascript);
+- [GitToolBox](https://plugins.jetbrains.com/plugin/7499-gittoolbox);
+- [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui); 
+- [Nyan Progress Bar](https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar);
+- [One Dark Theme](https://plugins.jetbrains.com/plugin/11938-one-dark-theme);
+- [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets);
+- [Tabnine AI Code Completion](https://plugins.jetbrains.com/plugin/12798-tabnine-ai-code-completion-js-java-python-ts-rust-go-php--more);
 
 </details>
 
