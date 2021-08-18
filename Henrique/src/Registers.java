@@ -35,9 +35,11 @@ public class Registers {
         for (int i = 0; infoDateLength > i; i++) {
 
             String firstDigit = String.valueOf(getInfoDateDLMS[i + 1]);
-            String secondDigit = String,valueOf(getInfoDateDLMS[i + 2]);
+            String secondDigit = String.valueOf(getInfoDateDLMS[i + 2]);
             String joinDigits = firstDigit.concat(secondDigit);
-            getYearDLMS[i] = joinDigits.getBytes("UTF-8");
+            byte[] byteYearDLMS;
+            byteYearDLMS = joinDigits.getBytes();
+            getYearDLMS[i] = byteYearDLMS;
         }
 
         int indexx = 0;

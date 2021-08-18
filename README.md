@@ -106,6 +106,9 @@ Início: 26-07-2021 - Em andamento
 
 <hr>
 
+<details>
+  <summary>Projetos de estudo (clique aqui)</summary>
+
 ### Projeto: Pokedéx Reativo
 
 #### [Desenvolvido por: @anabneri | Ana Beatriz Neri](https://github.com/anabneri/pokedex-youtube)
@@ -591,6 +594,65 @@ public static void main(String[] args) {
 
 <hr>
 
+### Mini Projeto: Prime Numbers
+
+#### Desenvolvido por: Alex Lee
+
+#### [Vídeo no Youtube](https://youtu.be/Hk9n0cWE2OI)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de um script que retorna todos os números primos a partir de um intervalo numérico informado pelo usuário.
+
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/PrimeNumbers/PrimeNumbers.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public class PrimeNumbers {
+
+    public static void main(String[] args) { System.out.println(findPrimes(1, 100)); }
+
+    public static ArrayList<Integer> findPrimes(int startNumber, int endNumber) {
+
+        ArrayList<Integer> primes = new ArrayList<Integer>();
+
+        for (int number = startNumber; number < endNumber; number++) {
+
+            boolean numberPrime = true;
+            int numberPair = 2;
+            float division = (float) (number / 2);
+            int numberLeftOver = (number % numberPair);
+
+            while (division >= numberPair) {
+                if ( numberLeftOver == 0) {
+                    numberPrime = false;
+                    break;
+                }
+
+                numberPair++;
+            }
+
+            if (numberPrime) {
+                primes.add(number);
+            }
+        }
+        return primes;
+    }
+}
+
+  ```
+</details>
+
+<hr>
+
 #### IDE: IntelliJ IDEA
 <details>
 <summary>Plugins</summary>
@@ -606,6 +668,7 @@ public static void main(String[] args) {
 
 </details>
 
+</details>
 <hr>
 
 > ### Caso você queira ajudar a melhorar este repositório, qualquer ajuda é bem vinda.
