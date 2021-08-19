@@ -661,7 +661,7 @@ public class PrimeNumbers {
 
 <details>
     <summary>Descrição do projeto</summary>
-Desenvolvimento de um script que retorna se uma frase ou palavra é palíndroma. Palímdroma é a palavra, grupo de palavras, verso ou número que se lê da mesma maneira da esquerda para a direita ou da direita para a esquerd 
+Desenvolvimento de um script que retorna se uma frase ou palavra é palíndroma. Palímdroma é a palavra, grupo de palavras, verso ou número que se lê da mesma maneira da esquerda para a direita ou da direita para a esquerda. 
 
 </details>
 
@@ -702,6 +702,40 @@ public static void main(String[] args) {
             System.out.println("Not a palindrome!");
         }
     }
+
+ ```
+
+</details>
+
+<hr>
+
+### Mini Projeto: Factorial with Recursion
+
+#### Desenvolvido por: Alex Lee
+
+#### [Vídeo no Youtube](https://youtu.be/OZuzm1i9g1c)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de um script que retorna o resultado a partir da operação fatorial de um número informado pelo usuário, utilizando a Recursão (ou Recursividade).
+
+> O fatorial de um número inteiro e positivo “n”, representado por “n!” é obtido a partir da multiplicação de todos os seus antecessores até o número um, cuja expressão genérica é n! = n . (n – 1).
+
+> A recursão na programação é bem exemplificada quando uma função é definida em termos de si mesma. Um exemplo da aplicação da recursão são os parsers (analisadores gramaticais) para linguagens de programação. Uma grande vantagem da recursão é que um conjunto infinito de sentenças possíveis, designs ou outros dados podem ser definidos, analisados ou produzidos por um programa de computador finito.
+
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/FactorialWithRecursion/FactorialWithRecursion.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+
 
  ```
 
