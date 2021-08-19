@@ -667,7 +667,7 @@ Desenvolvimento de um script que retorna se uma frase ou palavra é palíndroma.
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Palindrome/Palindrome.png?raw=true">
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Palindromes/Palindromes.png?raw=true">
 </details>
 
 <details>
