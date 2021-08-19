@@ -653,6 +653,64 @@ public class PrimeNumbers {
 
 <hr>
 
+### Mini Projeto: Palindromes
+
+#### Desenvolvido por: Alex Lee
+
+#### [Vídeo no Youtube](https://youtu.be/AoRYeB7Os3M)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de um script que retorna se uma frase ou palavra é palíndroma. Palímdroma é a palavra, grupo de palavras, verso ou número que se lê da mesma maneira da esquerda para a direita ou da direita para a esquerd 
+
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Palindrome/Palindrome.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public static void main(String[] args) {
+
+        // Exemples: mom, dad, poop, race car, nurses run
+
+        String original = "nurses run";
+        original = original.replace(" ", "");
+
+        String reverse = "";
+        for( int index = (original.length() - 1); index >= 0; index--) {
+            reverse += original.charAt(index);
+            System.out.println(reverse);
+        }
+
+        boolean palindrome = true;
+        for(int index = 0; (index < original.length()); index++) {
+
+            if(original.charAt(index) != reverse.charAt(index)) {
+                palindrome = false;
+            }
+        }
+
+        if(palindrome) {
+            System.out.println("Palindrome!");
+        } else {
+            System.out.println("Not a palindrome!");
+        }
+    }
+
+ ```
+
+</details>
+
+</details>
+
+<hr>
+
 #### IDE: IntelliJ IDEA
 <details>
 <summary>Plugins</summary>
@@ -668,7 +726,6 @@ public class PrimeNumbers {
 
 </details>
 
-</details>
 <hr>
 
 > ### Caso você queira ajudar a melhorar este repositório, qualquer ajuda é bem vinda.
