@@ -201,7 +201,7 @@ public class PokedexApplication {
 
 ### Mini Projeto: Interface GUI
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://www.youtube.com/watch?v=5o3fMLPY7qY)
 
@@ -267,7 +267,7 @@ Desenvolvimento de uma Interface Gráfica do Usuário (GUI), contendo um título
 
 ### Mini Projeto: String Reverse
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://youtu.be/orUTq3CahRE)
 
@@ -320,7 +320,7 @@ public class ReverseString {
 
 ### Mini Projeto: Loop Pattern
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://youtu.be/3gzvVPD3n0w)
 
@@ -371,7 +371,7 @@ public class LoopPattern {
 
 ### Mini Projeto: Arrow Keys
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://youtu.be/GAn5evoACsM)
 
@@ -463,7 +463,7 @@ public class ArrowKeys {
 
 ### Mini Projeto: Add Numbers
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://youtu.be/dVTgNsv3pX4)
 
@@ -503,7 +503,7 @@ public class AddNumbers {
 
 ### Mini Projeto: Random Numbers
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://youtu.be/ucS3vwP9jnk)
 
@@ -543,7 +543,7 @@ public class RandomNumbers {
 
 ### Mini Projeto: Duplicate Characters
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://youtu.be/tqI18_X_uoc)
 
@@ -596,7 +596,7 @@ public static void main(String[] args) {
 
 ### Mini Projeto: Prime Numbers
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://youtu.be/Hk9n0cWE2OI)
 
@@ -655,7 +655,7 @@ public class PrimeNumbers {
 
 ### Mini Projeto: Palindromes
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://youtu.be/AoRYeB7Os3M)
 
@@ -711,7 +711,7 @@ public static void main(String[] args) {
 
 ### Mini Projeto: Factorial with Recursion
 
-#### Desenvolvido por: Alex Lee
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
 #### [Vídeo no Youtube](https://youtu.be/OZuzm1i9g1c)
 
@@ -754,6 +754,87 @@ public static void main(String[] args) {
     }
 
  ```
+
+</details>
+
+<hr>
+
+### Mini Projeto: Tic Tac Toe Game
+
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
+
+#### [Vídeo no Youtube](https://youtu.be/gQb3dE-y1S4)
+
+<details>
+    <summary>Descrição do projeto</summary>
+Desenvolvimento de um script que "simula" o clássico jogo da velha, com o usuário versus o computador. Nele, o jogador que preencher três sequências de símbolos vence o jogo.
+
+>
+> O jogo da velha (português brasileiro) ou jogo do galo (português europeu) ou três em linha é um jogo e/ou passatempo popular. É um jogo de regras extremamente simples, que não traz grandes dificuldades para seus jogadores e é facilmente aprendido. A origem é desconhecida, com indicações de que pode ter começado no antigo Egito, onde foram encontrados tabuleiros esculpidos na rocha, que teriam mais de 3.500 anos. De alguma forma, é um jogo "aparentado" dos "Merels".
+>
+
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/TicTacToeGame/TicTacToeGame.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+ public static void main (String[] args) {
+
+        char[][] gameBoard = {
+                {' ', '|', ' ', '|', ' '},
+                {'-', '+', '-', '+', '-'},
+                {' ', '|', ' ', '|', ' '},
+                {'-', '+', '-', '+', '-'},
+                {' ', '|', ' ', '|', ' '},
+        };
+
+        printGameBoard(gameBoard);
+        System.out.println("Enter your placement (1 to 9): ");
+
+        while(true) {
+            Scanner keyboardScanner = new Scanner(System.in);
+            int positionPlayer = keyboardScanner.nextInt();
+
+            while(positionsPlayer.contains(positionPlayer) || positionsCPU.contains(positionPlayer)){
+                System.out.println("Position taken! Enter a correct position.");
+                positionPlayer = keyboardScanner.nextInt();
+            }
+
+            placePiece(gameBoard, positionPlayer, "player");
+
+            String battleResult = checkWinner();
+            if (battleResult.length() > 0) {
+                System.out.println(battleResult);
+                break;
+            }
+
+            Random randomPositionCPU = new Random();
+            int positionCPU = randomPositionCPU.nextInt(9) + 1;
+
+            while(positionsPlayer.contains(positionCPU) || positionsCPU.contains(positionCPU)){
+                positionCPU = randomPositionCPU.nextInt(9) + 1;
+            }
+
+            placePiece(gameBoard, positionCPU, "CPU");
+            printGameBoard(gameBoard);
+
+            battleResult = checkWinner();
+
+            if (battleResult.length() > 0) {
+                System.out.println(battleResult);
+                break;
+            }
+        }
+    }
+
+```
 
 </details>
 

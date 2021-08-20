@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/PrimeNumbers/PrimeNumbers.iml" filepath="$PROJECT_DIR$/PrimeNumbers/PrimeNumbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/RandomNumbers/RandomNumbers.iml" filepath="$PROJECT_DIR$/RandomNumbers/RandomNumbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReverseString/ReverseString.iml" filepath="$PROJECT_DIR$/ReverseString/ReverseString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeGame/TicTacToeGame.iml" filepath="$PROJECT_DIR$/TicTacToeGame/TicTacToeGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning-java.iml" filepath="$PROJECT_DIR$/learning-java.iml" />
     </modules>
   </component>
