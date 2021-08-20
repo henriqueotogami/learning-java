@@ -719,6 +719,7 @@ public static void main(String[] args) {
     <summary>Descrição do projeto</summary>
 Desenvolvimento de um script que retorna o resultado a partir da operação fatorial de um número informado pelo usuário, utilizando a Recursão (ou Recursividade).
 
+> 
 > O fatorial de um número inteiro e positivo “n”, representado por “n!” é obtido a partir da multiplicação de todos os seus antecessores até o número um, cuja expressão genérica é n! = n . (n – 1).
 
 > A recursão na programação é bem exemplificada quando uma função é definida em termos de si mesma. Um exemplo da aplicação da recursão são os parsers (analisadores gramaticais) para linguagens de programação. Uma grande vantagem da recursão é que um conjunto infinito de sentenças possíveis, designs ou outros dados podem ser definidos, analisados ou produzidos por um programa de computador finito.
@@ -735,7 +736,22 @@ Desenvolvimento de um script que retorna o resultado a partir da operação fato
 
 ```java
 
+public static void main(String[] args) {
+        System.out.println(factorial(5));
+    }
 
+    public static int factorial(int number) {
+
+        if (number == 1) {
+
+            System.out.println("factorial(" + number + ") = 1");
+            return 1;
+        } else {
+
+            System.out.println("factorial(" + number + ") = " + number + " * factorial(" + (number - 1) + ")");
+            return number * factorial(number - 1);
+        }
+    }
 
  ```
 
