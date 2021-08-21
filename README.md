@@ -1,10 +1,32 @@
+<div align="center">
+
 ## Repositório de estudos em Java
 
-Início: 26-07-2021 - Em andamento
+#### Início: 26-07-2021 — Em andamento
 
-#### A princípio, estou estudando Java para trabalhar nos projetos de sistemas embarcados da [CAS Tecnologia](https://www.castecnologia.com.br).
+#### A princípio, estudo Java para trabalhar nos projetos de sistemas embarcados da [CAS Tecnologia](https://www.castecnologia.com.br).
 
-### W3Schools
+</div>
+<br>
+<div align="center">
+<img src="https://img.shields.io/github/issues/HenriqueMAP/learning-java">
+<img src="https://img.shields.io/github/forks/HenriqueMAP/learning-java">
+<img src="https://img.shields.io/github/stars/HenriqueMAP/learning-java">
+<img src="https://img.shields.io/github/license/HenriqueMAP/learning-java">
+</div>
+<br>
+<div align="center">
+<img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/Microsoft_Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white">
+<img src="https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2B%2B&logoColor=black">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+</div>
+<br>
+<details>
+  <summary>W3Schools - Teoria</summary>
 
 [Tutoriais (clique aqui)](https://www.w3schools.com/java/default.asp)
 
@@ -104,10 +126,27 @@ Início: 26-07-2021 - Em andamento
   
 </details>
 
+</details>
+
 <hr>
 
+#### Mini projetos de estudo
+
+- [x] Mini projeto 01: Pokedéx Reativo;
+- [x] Mini projeto 02: Interface GUI;
+- [x] Mini projeto 03: String Reverse;
+- [x] Mini projeto 04: Loop Pattern;
+- [x] Mini projeto 05: Arrow Keys;
+- [x] Mini projeto 06: Add Numbers;
+- [x] Mini projeto 07: Random Numbers;
+- [x] Mini projeto 08: Duplicate Characters;
+- [x] Mini projeto 09: Prime Numbers;
+- [x] Mini projeto 10: Palindromes;
+- [x] Mini projeto 11: Factorial with Recursion;
+- [x] Mini projeto 12: Tic Tac Toe Game;
+
 <details>
-  <summary>Projetos de estudo (clique aqui)</summary>
+  <summary>Veja mais: Descrição | Screenshots | GIFs | Código de exemplo</summary>
 
 ### Projeto: Pokedéx Reativo
 
@@ -400,11 +439,11 @@ public class ArrowKeys {
         frame.setSize(400, 400);
         frame.setFocusable(true);
 
-        JPanel panel        = new JPanel();
-        JLabel upArrow      = new JLabel();
-        JLabel downArrow    = new JLabel();
-        JLabel leftArrow    = new JLabel();
-        JLabel rightArrow   = new JLabel();
+        JPanel panel = new JPanel();
+        JLabel upArrow = new JLabel();
+        JLabel downArrow = new JLabel();
+        JLabel leftArrow = new JLabel();
+        JLabel rightArrow = new JLabel();
 
         panel.add(upArrow);
         panel.add(downArrow);
@@ -413,9 +452,9 @@ public class ArrowKeys {
 
         frame.addKeyListener(new KeyListener() {
 
-            int upArrowCount    = 0;
-            int downArrowCount  = 0;
-            int leftArrowCount  = 0;
+            int upArrowCount = 0;
+            int downArrowCount = 0;
+            int leftArrowCount = 0;
             int rightArrowCount = 0;
 
             @Override
@@ -454,6 +493,7 @@ public class ArrowKeys {
         leftArrow.setText("Left: 0");
         rightArrow.setText("Right: 0");
     }
+}    
 
   ```
 
@@ -860,7 +900,19 @@ Desenvolvimento de um script que "simula" o clássico jogo da velha, com o usuá
 <hr>
 
 > ### Caso você queira ajudar a melhorar este repositório, qualquer ajuda é bem vinda.
-> 
-> ### **E que a força esteja com você.**
-> 
+
+- [x] Faça um **fork** deste repositório (https://github.com/HenriqueMAP/learning-java/fork);
+- [x] Crie um **branch** com as suas modificações ` git checkout -b meu-novo-recurso `;
+- [x] Faça um **commit** ` git commit -am 'Adicionando um novo recurso ...'`;
+- [x] Faça um **push** ` git push origin meu-novo-recurso ` ;
+- [x] Crie uma nova **pull request** neste repositório.
+
+**Depois que sua solicitação (pull request) for aceita e adicionada (merged) ao ramo principal (branch main), você pode excluir sua branch tranquilamente.**
+
+<div align="center">
+
+> ### **Muito obrigado, e que a força esteja com você.**
+>
 > ### Desenvolvido por **HMAP | Henrique Matheus Alves Pereira** 🦁
+
+</div>
