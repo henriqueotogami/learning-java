@@ -899,6 +899,13 @@ Desenvolvimento de um script que "simula" o clássico jogo da velha, com o usuá
 
 <hr>
 
+### Créditos
+
+- [x] [Shields.io | Badges Info from Github](https://img.shields.io)
+- [x] [Alexandre Sanlim | Badges Tech](https://github.com/alexandresanlim/Badges4-README.md-Profile)
+
+<hr>
+
 > ### Caso você queira ajudar a melhorar este repositório, qualquer ajuda é bem vinda.
 
 - [x] Faça um **fork** deste repositório (https://github.com/HenriqueMAP/learning-java/fork);
