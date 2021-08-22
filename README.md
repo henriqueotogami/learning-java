@@ -930,6 +930,62 @@ public class CurrencyFormatted {
 
 </details>
 
+<hr>
+
+### Mini Projeto 14: Fortune Cookie
+
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
+
+#### [Vídeo no Youtube](https://youtu.be/VGq6i1CDpdc)
+
+<details>
+    <summary>Descrição do projeto</summary>
+
+Desenvolvimento de um script que retorna uma mensagem aleatória de biscoitos da sorte (Fortune Cookie).
+
+> Um biscoito da sorte é um biscoito crocante e açucarado geralmente feito de farinha, açúcar, baunilha e óleo de gergelim com um pedaço de papel dentro, uma "fortuna", geralmente um aforismo ou uma vaga profecia. A mensagem dentro também pode incluir uma frase em chinês com tradução e / ou uma lista de números da sorte usados por alguns como números de loteria; uma vez que relativamente poucas mensagens distintas são impressas, no caso registrado em que os números vencedores foram impressos, a loteria teve um número inesperadamente alto de vencedores compartilhando um prêmio.
+> 
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/FortuneCookie/FortuneCookie.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public class Fortunes {
+
+    static String[] fortunes = {
+            "Today it's up to you to create the peacefulness you long for.",
+            "A friend asks only for your time not your money.",
+            "If you refuse to accept anything but the best, you very often get it.",
+            "A smile is your passport into the hearts of others.",
+            "A good way to keep healthy is to eat more Chinese food.",
+            "Your high-minded principles spell success.",
+            "Hard work pays off in the future, laziness pays off now.",
+            "Change can hurt, but it leads a path to something better.",
+            "Enjoy the good luck a companion brings you.",
+            "People are naturally attracted to you.",
+            "Hidden in a valley beside an open stream- This will be the type of place where you will find your dream.",
+            "A chance meeting opens new doors to success and friendship."
+    };
+
+    public static void main(String[] args) {
+        Random random = new Random();
+        int randomFortunes = random.nextInt(fortunes.length);
+        System.out.println(fortunes[randomFortunes]);
+    }
+}
+
+```
+
+</details>
+
+
 </details>
 
 <hr>
