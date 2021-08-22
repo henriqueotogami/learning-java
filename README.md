@@ -149,7 +149,7 @@
 <details>
   <summary>Veja mais: Descrição | Screenshots | GIFs | Código de exemplo</summary>
 
-### Projeto: Pokedéx Reativo
+### Mini Projeto 01: Pokedéx Reativo
 
 #### [Desenvolvido por: @anabneri | Ana Beatriz Neri](https://github.com/anabneri/pokedex-youtube)
 
@@ -239,7 +239,7 @@ public class PokedexApplication {
 </details>
 <hr>
 
-### Mini Projeto: Interface GUI
+### Mini Projeto 02: Interface GUI
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -305,7 +305,7 @@ Desenvolvimento de uma Interface Gráfica do Usuário (GUI), contendo um título
 
 <hr>
 
-### Mini Projeto: String Reverse
+### Mini Projeto 03: String Reverse
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -358,7 +358,7 @@ public class ReverseString {
 
 <hr>
 
-### Mini Projeto: Loop Pattern
+### Mini Projeto 04: Loop Pattern
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -409,7 +409,7 @@ public class LoopPattern {
 
 <hr>
 
-### Mini Projeto: Arrow Keys
+### Mini Projeto 05: Arrow Keys
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -502,7 +502,7 @@ public class ArrowKeys {
 
 <hr>
 
-### Mini Projeto: Add Numbers
+### Mini Projeto 06: Add Numbers
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -542,7 +542,7 @@ public class AddNumbers {
 
 <hr>
 
-### Mini Projeto: Random Numbers
+### Mini Projeto 07: Random Numbers
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -582,7 +582,7 @@ public class RandomNumbers {
 
 <hr>
 
-### Mini Projeto: Duplicate Characters
+### Mini Projeto 08: Duplicate Characters
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -635,7 +635,7 @@ public static void main(String[] args) {
 
 <hr>
 
-### Mini Projeto: Prime Numbers
+### Mini Projeto 09: Prime Numbers
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -694,7 +694,7 @@ public class PrimeNumbers {
 
 <hr>
 
-### Mini Projeto: Palindromes
+### Mini Projeto 10: Palindromes
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -750,7 +750,7 @@ public static void main(String[] args) {
 
 <hr>
 
-### Mini Projeto: Factorial with Recursion
+### Mini Projeto 11: Factorial with Recursion
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -800,7 +800,7 @@ public static void main(String[] args) {
 
 <hr>
 
-### Mini Projeto: Tic Tac Toe Game
+### Mini Projeto 12: Tic Tac Toe Game
 
 #### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
 
@@ -874,6 +874,57 @@ Desenvolvimento de um script que "simula" o clássico jogo da velha, com o usuá
             }
         }
     }
+
+```
+
+</details>
+
+<hr>
+
+### Mini Projeto 13: [Currency Formatter Challenge by HackerRank](https://www.hackerrank.com/challenges/java-currency-formatter/problem)
+
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
+
+#### [Vídeo no Youtube](https://youtu.be/L8loHaj-Bgo)
+
+<details>
+    <summary>Descrição do projeto</summary>
+
+Desenvolvimento de um script que retorna formatado em moeda, baseado em localidade ou país, o valor informado.
+É recomendado o uso da classe  ` NumberFormat ` e o método ` getCurrencyInstance `.
+
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/JavaCurrencyFormatted/JavaCurrencyFormatted.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public class CurrencyFormatted {
+
+    public static void main(String[] args) {
+
+        Scanner inputScanner = new Scanner(System.in);
+        double payment = inputScanner.nextDouble();
+        inputScanner.close();
+
+        // Write your code here.
+        String us = NumberFormat.getCurrencyInstance(Locale.US).format(payment);
+        String india = NumberFormat.getCurrencyInstance(new Locale("en", "in")).format(payment);
+        String china = NumberFormat.getCurrencyInstance(Locale.CHINA).format(payment);
+        String france = NumberFormat.getCurrencyInstance(Locale.FRANCE).format(payment);
+
+        System.out.println("US: " + us);
+        System.out.println("India: " + india);
+        System.out.println("China: " + china);
+        System.out.println("France: " + france);
+    }
+}
 
 ```
 
