@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Encryption/Encryption.iml" filepath="$PROJECT_DIR$/Encryption/Encryption.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExponencialGrowth/ExponencialGrowth.iml" filepath="$PROJECT_DIR$/ExponencialGrowth/ExponencialGrowth.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactorialWithRecursion/FactorialWithRecursion.iml" filepath="$PROJECT_DIR$/FactorialWithRecursion/FactorialWithRecursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FartGenerator/FartGenerator.iml" filepath="$PROJECT_DIR$/FartGenerator/FartGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/FortuneCookie/FortuneCookie.iml" filepath="$PROJECT_DIR$/FortuneCookie/FortuneCookie.iml" />
       <module fileurl="file://$PROJECT_DIR$/Henrique/Henrique.iml" filepath="$PROJECT_DIR$/Henrique/Henrique.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaCurrencyFormatted/JavaCurrencyFormatted.iml" filepath="$PROJECT_DIR$/JavaCurrencyFormatted/JavaCurrencyFormatted.iml" />
