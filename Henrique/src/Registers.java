@@ -8,7 +8,7 @@ public class Registers {
 //        final int complexArrayStandardSize = 22;
 //        final byte complexArrayStandardInfoDate = (byte) 0x0C;
 //        String[] complexArray;
-        int[] getInfoDateDLMS = new int[100];
+        int[] getInfoDateDLMS = new int[10];
         int indexInfoDateDLMS;
         int index = 0;
 
@@ -31,20 +31,24 @@ public class Registers {
         }
 
         final int infoDateLength = getInfoDateDLMS.length;
+        byte[] byteYearDLMS = new byte [10];
 
-        for (int i = 0; infoDateLength > i; i++) {
+        for (int i = 0; infoDateLength >= i; i++) {
 
             String firstDigit = String.valueOf(getInfoDateDLMS[i + 1]);
             String secondDigit = String.valueOf(getInfoDateDLMS[i + 2]);
             String joinDigits = firstDigit.concat(secondDigit);
-            byte[] byteYearDLMS;
+
             byteYearDLMS = joinDigits.getBytes();
-            getYearDLMS[i] = byteYearDLMS;
+        }
+
+        for (int i = 0; byteYearDLMS.length >= i; i++) {
+            getYearDLMS[i] = byteYearDLMS[i];
         }
 
         int indexx = 0;
 
-       for (int i = 0; infoDateLength > i; i++) {
+       for (int i = 0; infoDateLength >= i; i++) {
 
            getDayDLMS[i] = registers[(getInfoDateDLMS[index] + 3)];
            getMonthDLMS[i] = (registers[(getInfoDateDLMS[index] + 4)]);
@@ -61,7 +65,7 @@ public class Registers {
 
         String[] arrayDateTime = new String[100];
 
-       for (int i = 0; i < getInfoDateDLMS.length; i++){
+       for (int i = 0; i <= getInfoDateDLMS.length; i++){
            arrayDateTime[i] = ByteArray.byteToDec(getYearDLMS, i,1);
            arrayDateTime[i + 1] = ByteArray.byteToDec(getDayDLMS, i,1);
            arrayDateTime[i + 2] = ByteArray.byteToDec(getMonthDLMS, i,1);

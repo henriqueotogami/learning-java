@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Vector;
 
 public class RegisterMain {
 
@@ -14,7 +15,7 @@ public class RegisterMain {
         //       02 03 09 0C 07 E5 08 0D 05 10 07 0B 00 80 00 00 11 00 11 3E
         //       02 03 09 0C 07 E5 08 0D 05 10 07 24 00 80 00 00 11 00 11 3E
         //       02 03 09 0C 07 E5 08 0D 05 10 08 07 00 80 00 00 11 00 11 3E
-        Registers register = new Registers();
+        RegisterTwo register = new RegisterTwo();
 
         byte[] data = {
                 0x01, 0x0A, 0x02, 0x03, 0x09, (byte) 0x0C, 0x07, (byte) 0xE5, 0x08, 0x0C, 0x04, 0x10, 0x0B, (byte) 0x3A, 0x00, (byte) 0x80, 0x00, 0x00, 0x11, 0x00, 0x11, 0x3E,
@@ -29,7 +30,16 @@ public class RegisterMain {
                             0x02, 0x03, 0x09, 0x0C, 0x07, (byte) 0xE5, 0x08, (byte) 0x0D, 0x05, 0x10, 0x08, 0x07, 0x00, (byte) 0x80, 0x00, (byte) 0x00, 0x11, 0x00, 0x11, 0x3E,
         };
 //        register.complexDateStruct(data);
+        System.out.println(data.length);
 
-        System.out.println(Arrays.toString(register.complexDateStruct(data)));
+        Vector result = register.complexDateStructure(data);
+
+        for (int index = 0; result.size() > index; index++) {
+
+            String[] registerOne = new String[80];
+            registerOne[index] = String.valueOf(result.get(index));
+            System.out.println(registerOne[index]);
+        }
+
     }
 }

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/AppGUI/AppGUI.iml" filepath="$PROJECT_DIR$/AppGUI/AppGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrowKeys/ArrowKeys.iml" filepath="$PROJECT_DIR$/ArrowKeys/ArrowKeys.iml" />
       <module fileurl="file://$PROJECT_DIR$/DuplicateCharacters/DuplicateCharacters.iml" filepath="$PROJECT_DIR$/DuplicateCharacters/DuplicateCharacters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encryption/Encryption.iml" filepath="$PROJECT_DIR$/Encryption/Encryption.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExponencialGrowth/ExponencialGrowth.iml" filepath="$PROJECT_DIR$/ExponencialGrowth/ExponencialGrowth.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactorialWithRecursion/FactorialWithRecursion.iml" filepath="$PROJECT_DIR$/FactorialWithRecursion/FactorialWithRecursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/FortuneCookie/FortuneCookie.iml" filepath="$PROJECT_DIR$/FortuneCookie/FortuneCookie.iml" />

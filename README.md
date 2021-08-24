@@ -144,7 +144,10 @@
 - [x] Mini projeto 09: Prime Numbers;
 - [x] Mini projeto 10: Palindromes;
 - [x] Mini projeto 11: Factorial with Recursion;
-- [x] Mini projeto 12: Tic Tac Toe Game;
+- [x] Mini projeto 12: Tic Tac Toe Game; 
+- [x] Mini Projeto 13: Currency Formatter Challenge by HackerRank;
+- [x] Mini Projeto 14: Fortune Cookie;
+- [x] Mini projeto 15: Encryption;
 
 <details>
   <summary>Veja mais: Descrição | Screenshots | GIFs | Código de exemplo</summary>
@@ -985,6 +988,48 @@ public class Fortunes {
 
 </details>
 
+<hr>
+
+### Mini Projeto 15: Encryption
+
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
+
+#### [Vídeo no Youtube](https://youtu.be/8wlE6DgOWBs)
+
+<details>
+    <summary>Descrição do projeto</summary>
+
+Desenvolvimento de um script que retorna uma mensagem criptografada.
+
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Encryption/Encryption.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public static void main(String[] args) {
+
+    int key = 6;
+    String text = "Hey, how's it hangin?";
+    System.out.println(text);
+
+    char[] chars = text.toCharArray();
+
+    for (char c : chars) {
+        c += key;
+        System.out.print(c);
+    }
+}
+
+```
+
+</details>
 
 </details>
 
