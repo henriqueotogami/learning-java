@@ -34,10 +34,10 @@ public class RegisterMain {
 
         Vector result = register.complexDateStructure(data);
 
-        for (int index = 0; result.size() > index; index++) {
+        for (int index = 0; 10 > index; index++) {
 
             String[] registerOne = new String[80];
-            registerOne[index] = String.valueOf(result.get(index));
+            registerOne = (String[]) result.get(0);
             System.out.println(registerOne[index]);
         }
 

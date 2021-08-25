@@ -4,12 +4,12 @@ public class RegisterTwo {
 
     public Vector<String[]> complexDateStructure(final byte[] registers) {
 
-        byte[] getYearDLMS = new byte[10];
-        byte[] getDayDLMS = new byte[10];
-        byte[] getMonthDLMS  = new byte[10];
-        byte[] getHourDLMS = new byte[10];
-        byte[] getMinutesDLMS = new byte[10];
-        byte[] getSecondsDLMS = new byte[10];
+        byte[] getYearDLMS      = new byte[10];
+        byte[] getDayDLMS       = new byte[10];
+        byte[] getMonthDLMS     = new byte[10];
+        byte[] getHourDLMS      = new byte[10];
+        byte[] getMinutesDLMS   = new byte[10];
+        byte[] getSecondsDLMS   = new byte[10];
         byte[] getRegStatusDLMS = new byte[10];
         byte[] getEventReleDLMS = new byte[10];
 
@@ -31,20 +31,20 @@ public class RegisterTwo {
 
         for (int i = 0; registersSize > indexx; i++) {
 
-            String firstDigit = (Byte.toString(registers[getIndexDateDLMS[i]+1]));
-            String secondDigit = (Byte.toString(registers[getIndexDateDLMS[i]+2]));
-            String joinDigits = String.valueOf(Byte.parseByte(firstDigit) + Byte.parseByte(secondDigit));
-            byteYearDLMS[i] = Byte.parseByte(joinDigits);
+            String firstDigit        = (Byte.toString(registers[getIndexDateDLMS[i]+1]));
+            String secondDigit      = (Byte.toString(registers[getIndexDateDLMS[i]+2]));
+            String joinDigits       = String.valueOf(Byte.parseByte(firstDigit) + Byte.parseByte(secondDigit));
+            byteYearDLMS[i]         = Byte.parseByte(joinDigits);
             indexx += 20;
         }
 
         for (int i = 0; arrayInfoDateSize > i; i++) {
 
-            getMonthDLMS[i] = registers[(getIndexDateDLMS[i])];
-            getDayDLMS[i] = registers[(getIndexDateDLMS[i] + 1)];
-            getHourDLMS[i] = registers[(getIndexDateDLMS[i] + 3)];
-            getMinutesDLMS[i] = registers[(getIndexDateDLMS[i] + 4)];
-            getSecondsDLMS[i] = registers[(getIndexDateDLMS[i] + 5)];
+            getMonthDLMS[i]     = registers[(getIndexDateDLMS[i])];
+            getDayDLMS[i]       = registers[(getIndexDateDLMS[i] + 1)];
+            getHourDLMS[i]      = registers[(getIndexDateDLMS[i] + 3)];
+            getMinutesDLMS[i]   = registers[(getIndexDateDLMS[i] + 4)];
+            getSecondsDLMS[i]   = registers[(getIndexDateDLMS[i] + 5)];
             getRegStatusDLMS[i] = registers[(getIndexDateDLMS[i] + 11)];
             getEventReleDLMS[i] = registers[(getIndexDateDLMS[i] + 13)];
 
@@ -55,7 +55,7 @@ public class RegisterTwo {
 
         for (int i = 0; arrayDateTime.length > i; i+=8){
 
-            arrayDateTime[i]     = ByteArray.byteToDec(getYearDLMS, indexxxx,1);
+            arrayDateTime[i]     = ByteArray.byteToDec(getYearDLMS, indexxxx,2);
             arrayDateTime[i + 1] = ByteArray.byteToDec(getDayDLMS, indexxxx,1);
             arrayDateTime[i + 2] = ByteArray.byteToDec(getMonthDLMS, indexxxx,1);
             arrayDateTime[i + 3] = ByteArray.byteToDec(getHourDLMS, indexxxx,1);
@@ -72,7 +72,7 @@ public class RegisterTwo {
 
         for (int i = 0; arrayDateTime.length > indexxxxx; i++) {
 
-            vectorDateTime.set(i, new String[] {
+            vectorDateTime.add(i, new String[] {
 
                     arrayDateTime[indexxxxx] ,
                     arrayDateTime[indexxxxx + 1],
