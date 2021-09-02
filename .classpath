@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AddNumbers/src"/>
+	<classpathentry kind="src" path="AppGUI/src"/>
+	<classpathentry kind="src" path="ArrowKeys/src"/>
+	<classpathentry kind="src" path="DuplicateCharacters/src"/>
+	<classpathentry kind="src" path="Encryption/src"/>
+	<classpathentry kind="src" path="ExponencialGrowth/src"/>
+	<classpathentry kind="src" path="FactorialWithRecursion/src"/>
+	<classpathentry kind="src" path="FartGenerator/src"/>
+	<classpathentry kind="src" path="FortuneCookie/src"/>
+	<classpathentry kind="src" path="Henrique/src"/>
+	<classpathentry kind="src" path="JavaCurrencyFormatted/src"/>
+	<classpathentry kind="src" path="JavaTutorial/src"/>
+	<classpathentry kind="src" path="LoopPattern/src"/>
+	<classpathentry kind="src" path="Palindromes/src"/>
+	<classpathentry kind="src" path="Pokedex/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Pokedex/src/main/java"/>
+	<classpathentry kind="src" path="Pokedex/src/test/java"/>
+	<classpathentry kind="src" path="PrimeNumbers/src"/>
+	<classpathentry kind="src" path="RandomNumbers/src"/>
+	<classpathentry kind="src" path="ReverseString/src"/>
+	<classpathentry kind="src" path="TicTacToeGame/src"/>
+	<classpathentry kind="src" path="UdemyCoderCourse/src"/>
+	<classpathentry kind="output" path="Pokedex/target/classes"/>
+</classpath>

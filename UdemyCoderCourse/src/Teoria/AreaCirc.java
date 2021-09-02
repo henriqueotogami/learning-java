@@ -3,7 +3,7 @@ package Teoria;
 public class AreaCirc {
 
     double raio;
-    static final double PI;
+    static double PI = 0;
     static double diametro = 10.0;
 
     AreaCirc(double raioInicial) {
@@ -12,6 +12,6 @@ public class AreaCirc {
     }
 
     double area() {
-        return pi * Math.pow(raio, 2);
+        return PI * Math.pow(raio, 2);
     }
 }
