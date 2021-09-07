@@ -34,8 +34,11 @@
   <summary>Udemy: Java 2020 COMPLETO: Do Zero ao Profissional + Projetos!</summary>
 
 > Fundamentos Java, Orientação a Objeto, Programação Funcional, MySQL, MongoDB, Spring Boot, JavaFX, JPA, Hibernate e mais.
+>
 > Lecionado por Leonardo Moura Leitao | Arquiteto de Software 
+>
 > 535 aulas
+>
 > 77 horas
 
 - [x] Algoritmo e Estrutura de Dados
