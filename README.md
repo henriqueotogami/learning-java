@@ -59,15 +59,15 @@
 <details>
   <summary>Teoria</summary> 
 
-- [x] Seção 1: Introdução;
-- [x] Seção 2: Configuração do Ambiente;
-- [x] Seção 3: Fundamentos;
-- [x] Secão 4: Estrutura de Controle;
-- [x] Seção 5: Classes e Métodos;
-- [x] Seção 6: Arrays e Collections;
-- [x] Seção 7: Orientação a Objetos;
-- [x] Secão 8: Lambdas;
-- [x] Seção 9: Stream API;
+- [x] Seção 01: Introdução;
+- [x] Seção 02: Configuração do Ambiente;
+- [x] Seção 03: Fundamentos;
+- [x] Secão 04: Estrutura de Controle;
+- [x] Seção 05: Classes e Métodos;
+- [x] Seção 06: Arrays e Collections;
+- [x] Seção 07: Orientação a Objetos;
+- [x] Secão 08: Lambdas;
+- [x] Seção 09: Stream API;
 - [x] Seção 10: Tratamento de Erros;
 - [x] Seção 11: Projeto - Campo Minado (+JUnit 5);
 - [x] Secão 12: Generics;
@@ -213,6 +213,7 @@
 - [x] Mini Projeto 14: Fortune Cookie;
 - [x] Mini projeto 15: Encryption;
 - [x] Mini projeto 16: Fart Generator;
+- [x] Mini projeto 17: CSV File Reader;
 
 <details>
   <summary>Veja mais: Descrição | Screenshots | GIFs | Código de exemplo</summary>
@@ -1195,6 +1196,64 @@ public static void main(String[] args) {
     System.out.println("You are a " + letters.get(letter) + " " + days.get(day) + " FART");
 }
 
+
+```
+
+</details>
+
+
+<hr>
+
+### Mini Projeto 17: CSV File Reader
+
+#### Desenvolvido por: [@Alex Lee](https://github.com/alexlorenlee)
+
+#### [Vídeo no Youtube](https://youtu.be/-Aud0cDh-J8)
+
+<details>
+    <summary>Descrição do projeto</summary>
+
+Desenvolvimento de um script que retorna dados de data e descrição do crime ocorrido em 2006, a partir de um arquivo em CSV.
+O arquivo de crime de Sacramento em janeiro de 2006 contém 7.584 registros de crimes, conforme disponibilizado pelo Departamento de Polícia de Sacramento. 
+As agências de aplicação da lei devem gostar de trabalhar com este conjunto de dados.
+
+> Por definição, CSV é um formato de arquivo que significa “comma-separated-values” (valores separados por vírgulas). 
+> Isso significa que os campos de dados indicados neste formato normalmente são separados ou delimitados por uma vírgula.
+
+[Crime Records - CSV File](https://support.spatialkey.com/spatialkey-sample-csv-data/) 
+
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/CSVFile/CSVFile.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
+public static void main(String[] args) throws IOException {
+
+    String filePath = "/Users/henriquematheusalvespereira/Downloads/SacramentocrimeJanuary2006.csv";
+    String line = "";
+    int quantityCrimes = 0;
+    try {
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath));
+
+        while ((line = bufferedReader.readLine()) != null) {
+            String[] crimeValues = line.split(",");
+            System.out.println("Date | Time: " + crimeValues[0] + " | Crime event: " + crimeValues[5]);
+            quantityCrimes += 1;
+        }
+        System.out.println("\namount of crimes registered in 2006: " + quantityCrimes);
+    } catch (FileNotFoundException exception) {
+        exception.printStackTrace();
+    } catch (IOException exception) {
+        exception.printStackTrace();
+    }
+}
 
 ```
 
