@@ -9,9 +9,9 @@
 </div>
 <br>
 <div align="center">
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Java-michiel-leunens-fBB7FeS4Xas-unsplash.png?raw=true">
+<img width="300" src="https://github.com/HenriqueMAP/learning-java/blob/master/Java-michiel-leunens-fBB7FeS4Xas-unsplash.jpg?raw=true">
 </div>
-<br>q
+<br>
 <div align="center">
 <img src="https://img.shields.io/github/issues/HenriqueMAP/learning-java">
 <img src="https://img.shields.io/github/forks/HenriqueMAP/learning-java">
@@ -29,6 +29,63 @@
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
 <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
 </div>
+<br>
+<details>
+  <summary>Udemy: Java 2020 COMPLETO: Do Zero ao Profissional + Projetos!</summary>
+
+> Fundamentos Java, Orientação a Objeto, Programação Funcional, MySQL, MongoDB, Spring Boot, JavaFX, JPA, Hibernate e mais.
+> Lecionado por Leonardo Moura Leitao | Arquiteto de Software 
+> 535 aulas
+> 77 horas
+
+- [x] Algoritmo e Estrutura de Dados
+- [x] Fundamentos da Linguagem Java
+- [x] Estruturas de Controle
+- [x] Classes, Objetos, Métodos
+- [x] Orientação a Objeto
+- [x] Encapsulamento, Herança, Polimorfismo e Abstração
+- [x] Lambdas
+- [x] Stream API
+- [x] Tratamento de Exceções
+- [x] JavaFX
+- [x] Banco de Dados Relacional
+- [x] Bando de Dados NÃO Relacional (NoSQL)
+- [x] JPA (Hibernate)
+- [x] Spring Boot
+
+<details>
+  <summary>Teoria</summary> 
+
+- [x] Seção 1: Introdução;
+- [x] Seção 2: Configuração do Ambiente;
+- [x] Seção 3: Fundamentos;
+- [x] Secão 4: Estrutura de Controle;
+- [x] Seção 5: Classes e Métodos;
+- [x] Seção 6: Arrays e Collections;
+- [x] Seção 7: Orientação a Objetos;
+- [x] Secão 8: Lambdas;
+- [x] Seção 9: Stream API;
+- [x] Seção 10: Tratamento de Erros;
+- [x] Seção 11: Projeto - Campo Minado (+JUnit 5);
+- [x] Secão 12: Generics;
+- [x] Seção 13: Java Desktop com Swing;
+- [x] Seção 14: Banco de Dados Relacional;
+- [x] Seção 15: Banco de Dados com JDBC;
+- [x] Seção 16: Java Persistence API (JPA);
+- [x] Seção 17: Modularidade em Java;
+- [x] Seção 18: JavaFX;
+- [x] Seção 19: Conceitos sobre Web;
+- [x] Secão 20: Spring Boot;
+- [x] Seção 21: Banco de Dados Não Relacional (NoSQL);
+- [x] Seção 22: Conclusão;
+
+</details>
+<br>
+<details>
+  <summary>Projetos</summary> 
+</details>
+<hr>
+</details>
 <br>
 <details>
   <summary>W3Schools - Teoria</summary>
@@ -1165,7 +1222,7 @@ public static void main(String[] args) {
 
 - [x] [Shields.io | Badges Info from Github](https://img.shields.io)
 - [x] [Alexandre Sanlim | Badges Tech](https://github.com/alexandresanlim/Badges4-README.md-Profile)
-  Photo by <a href="https://unsplash.com/@leunesmedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michiel Leunens</a> on <a href="https://unsplash.com/s/photos/java?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- [x] [Michiel Leunens| Unsplash](https://unsplash.com/photos/fBB7FeS4Xas)
 
 
 <hr>
