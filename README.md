@@ -9,6 +9,10 @@
 </div>
 <br>
 <div align="center">
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Java-michiel-leunens-fBB7FeS4Xas-unsplash.png?raw=true">
+</div>
+<br>q
+<div align="center">
 <img src="https://img.shields.io/github/issues/HenriqueMAP/learning-java">
 <img src="https://img.shields.io/github/forks/HenriqueMAP/learning-java">
 <img src="https://img.shields.io/github/stars/HenriqueMAP/learning-java">
@@ -1161,6 +1165,8 @@ public static void main(String[] args) {
 
 - [x] [Shields.io | Badges Info from Github](https://img.shields.io)
 - [x] [Alexandre Sanlim | Badges Tech](https://github.com/alexandresanlim/Badges4-README.md-Profile)
+  Photo by <a href="https://unsplash.com/@leunesmedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michiel Leunens</a> on <a href="https://unsplash.com/s/photos/java?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 
 <hr>
 
