@@ -214,6 +214,7 @@
 - [x] Mini projeto 15: Encryption;
 - [x] Mini projeto 16: Fart Generator;
 - [x] Mini projeto 17: CSV File Reader;
+- [x] Mini projeto 18: Snake Game Desktop;
 
 <details>
   <summary>Veja mais: Descrição | Screenshots | GIFs | Código de exemplo</summary>
@@ -1254,6 +1255,36 @@ public static void main(String[] args) throws IOException {
         exception.printStackTrace();
     }
 }
+
+```
+
+</details>
+
+<hr>
+
+### Mini Projeto 18: Snake Game Desktop
+
+#### Desenvolvido por: [@Bro Code](https://github.com/BroCodeHelp)
+
+#### [Vídeo no Youtube](https://youtu.be/bI6e6qjJ8JQ)
+
+<details>
+    <summary>Descrição do projeto</summary>
+
+Desenvolvimento de um script que simula o clássico jogo da cobrinha.
+
+</details>
+
+<details>
+    <summary>Screenshots | GIFs</summary>
+<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/SnakeGame/SnakeGame.png?raw=true">
+</details>
+
+<details>
+  <summary>Código de exemplo</summary>
+
+```java
+
 
 ```
 
