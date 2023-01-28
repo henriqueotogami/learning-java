@@ -19,6 +19,10 @@
 <img src="https://img.shields.io/github/license/HenriqueMAP/learning-java">
 </div>
 <br>
+<div align=center>
+<a href="https://wakatime.com/badge/user/1e53636e-c916-4d50-9ce1-f3ac75a883e3/project/14d34071-52b0-4b74-b1fc-03843ebcb173"><img src="https://wakatime.com/badge/user/1e53636e-c916-4d50-9ce1-f3ac75a883e3/project/14d34071-52b0-4b74-b1fc-03843ebcb173.svg" alt="wakatime"></a>
+</div>
+<br>
 <div align="center">
 <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
