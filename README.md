@@ -9,14 +9,14 @@
 </div>
 <br>
 <div align="center">
-<img width="300" src="https://github.com/HenriqueMAP/learning-java/blob/master/Java-michiel-leunens-fBB7FeS4Xas-unsplash.jpg?raw=true">
+<img width="300" src="https://github.com/henriqueotogami/learning-java/blob/master/Java-michiel-leunens-fBB7FeS4Xas-unsplash.jpg?raw=true">
 </div>
 <br>
 <div align="center">
-<img src="https://img.shields.io/github/issues/HenriqueMAP/learning-java">
-<img src="https://img.shields.io/github/forks/HenriqueMAP/learning-java">
-<img src="https://img.shields.io/github/stars/HenriqueMAP/learning-java">
-<img src="https://img.shields.io/github/license/HenriqueMAP/learning-java">
+<img src="https://img.shields.io/github/issues/henriqueotogami/learning-java">
+<img src="https://img.shields.io/github/forks/henriqueotogami/learning-java">
+<img src="https://img.shields.io/github/stars/henriqueotogami/learning-java">
+<img src="https://img.shields.io/github/license/henriqueotogami/learning-java">
 </div>
 <br>
 <div align=center>
@@ -269,7 +269,7 @@ Neste projeto será criada uma aplicação de Create, Read, Update e Delete usan
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Pokedex/PokedexApplication.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/Pokedex/PokedexApplication.png?raw=true">
 </details>
 
 <details>
@@ -326,7 +326,7 @@ Desenvolvimento de uma Interface Gráfica do Usuário (GUI), contendo um título
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/AppGUI/AppGUI.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/AppGUI/AppGUI.png?raw=true">
 </details>
 
 <details>
@@ -392,7 +392,7 @@ Desenvolvimento de um script que inverta a ordem de cada caractere na sentença 
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/ReverseString/ReverseString.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/ReverseString/ReverseString.png?raw=true">
 </details>
 
 <details>
@@ -445,7 +445,7 @@ Desenvolvimento de um script que obtém o número de estrelas solicitado ao usu�
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/LoopPattern/LoopPattern.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/LoopPattern/LoopPattern.png?raw=true">
 </details>
 
 <details>
@@ -496,7 +496,7 @@ Desenvolvimento de um script que obtém os eventos do teclado ao pressionar as t
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/ArrowKeys/ArrowKeys.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/ArrowKeys/ArrowKeys.png?raw=true">
 </details>
 
 <details>
@@ -589,7 +589,7 @@ Desenvolvimento de um script que obtém os números digitados pelo usuário e re
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/AddNumbers/AddNumbers.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/AddNumbers/AddNumbers.png?raw=true">
 </details>
 
 <details>
@@ -629,7 +629,7 @@ Desenvolvimento de um script que retorna números aleatórios com intervalo defi
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/RandomNumbers/RandomNumbers.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/RandomNumbers/RandomNumbers.png?raw=true">
 </details>
 
 <details>
@@ -672,7 +672,7 @@ Desenvolvimento de um script que retorna caracteres repetidos dentro de uma Stri
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/DuplicateCharacters/DuplicateCharacters.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/DuplicateCharacters/DuplicateCharacters.png?raw=true">
 </details>
 
 <details>
@@ -723,7 +723,7 @@ Desenvolvimento de um script que retorna todos os números primos a partir de um
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/PrimeNumbers/PrimeNumbers.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/PrimeNumbers/PrimeNumbers.png?raw=true">
 </details>
 
 <details>
@@ -782,7 +782,7 @@ Desenvolvimento de um script que retorna se uma frase ou palavra é palíndroma.
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Palindromes/Palindromes.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/Palindromes/Palindromes.png?raw=true">
 </details>
 
 <details>
@@ -843,7 +843,7 @@ Desenvolvimento de um script que retorna o resultado a partir da operação fato
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/FactorialWithRecursion/FactorialWithRecursion.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/FactorialWithRecursion/FactorialWithRecursion.png?raw=true">
 </details>
 
 <details>
@@ -892,7 +892,7 @@ Desenvolvimento de um script que "simula" o clássico jogo da velha, com o usuá
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/TicTacToeGame/TicTacToeGame.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/TicTacToeGame/TicTacToeGame.png?raw=true">
 </details>
 
 <details>
@@ -971,7 +971,7 @@ Desenvolvimento de um script que retorna formatado em moeda, baseado em localida
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/JavaCurrencyFormatted/JavaCurrencyFormatted.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/JavaCurrencyFormatted/JavaCurrencyFormatted.png?raw=true">
 </details>
 
 <details>
@@ -1023,7 +1023,7 @@ Desenvolvimento de um script que retorna uma mensagem aleatória de biscoitos da
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/FortuneCookie/FortuneCookie.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/FortuneCookie/FortuneCookie.png?raw=true">
 </details>
 
 <details>
@@ -1076,7 +1076,7 @@ Desenvolvimento de um script que retorna uma mensagem criptografada.
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/Encryption/Encryption.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/Encryption/Encryption.png?raw=true">
 </details>
 
 <details>
@@ -1120,7 +1120,7 @@ Desenvolvimento de um script que retorna uma mensagem baseada no seu nome e dia 
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/FartGenerator/FartGenerator.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/FartGenerator/FartGenerator.png?raw=true">
 </details>
 
 <details>
@@ -1231,7 +1231,7 @@ As agências de aplicação da lei devem gostar de trabalhar com este conjunto d
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/CSVFile/CSVFile.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/CSVFile/CSVFile.png?raw=true">
 </details>
 
 <details>
@@ -1281,7 +1281,7 @@ Desenvolvimento de um script que simula o clássico jogo da cobrinha.
 
 <details>
     <summary>Screenshots | GIFs</summary>
-<img width="auto" src="https://github.com/HenriqueMAP/learning-java/blob/master/SnakeGame/SnakeGame.png?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-java/blob/master/SnakeGame/SnakeGame.png?raw=true">
 </details>
 
 <details>
@@ -1326,7 +1326,7 @@ Desenvolvimento de um script que simula o clássico jogo da cobrinha.
 
 > ### Caso você queira ajudar a melhorar este repositório, qualquer ajuda é bem vinda.
 
-- [x] Faça um **fork** deste repositório (https://github.com/HenriqueMAP/learning-java/fork);
+- [x] Faça um **fork** deste repositório (https://github.com/henriqueotogami/learning-java/fork);
 - [x] Crie um **branch** com as suas modificações ` git checkout -b meu-novo-recurso `;
 - [x] Faça um **commit** ` git commit -am 'Adicionando um novo recurso ...'`;
 - [x] Faça um **push** ` git push origin meu-novo-recurso ` ;
